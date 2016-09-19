@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>new  fil title</title>
+    </head>
+    <body>
+        <h1>GIT Rules<h1>
+    </body>
+</html>
