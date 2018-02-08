@@ -21,7 +21,7 @@
 		{"id":5, "biller":"Sagicor Life", "servicefee":250.00},
 		{"id":6, "biller":"Appsession", "servicefee":260.00}
 	],
-	TransactionSummary[
+	"TransactionSummary":[
 		{"transactiontypeid":1,"tendertypeID":1,"billerid":1,"transactionvolume":1619,"servicefee":3,"transactionvalue":32380,"voidvalue":0,"month":1,"year":2014},
 		{"transactiontypeid":1,"tendertypeID":2,"billerid":1,"transactionvolume":1321,"servicefee":3,"transactionvalue":26420,"voidvalue":0,"month":1,"year":2014},
 		{"transactiontypeid":2,"tendertypeID":3,"billerid":1,"transactionvolume":2178,"servicefee":3,"transactionvalue":32670,"voidvalue":0,"month":6,"year":2014},
