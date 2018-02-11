@@ -1,20 +1,21 @@
+# Instructions
 This programming test is requires JSON Server to load the JSON file as RESTful API calls [GET, POST, PUT, PATCH, DELETE]
 
-# Installing JSON Server
+## Installing JSON Server
 JSON Server is available as a NPM package. The installation can be done by using the Node.js package manager:
 
 _$ npm install -g json-server_
 
 By adding the -g option we make sure that the package is installed globally on your system.
 
-# Running The Server
+## Running The Server
 Let’s start JSON server by executing the following command:
 
 _$ json-server --watch db.json_
 
 As a parameter we need to pass over the file containing our JSON structure (db.json). Furthermore we’re using the — watch parameter. By using this parameter we’re making sure that the server is started in watch mode which means that it watches for file changes and updates the exposed API accordingly.
 
-# Opening The Server
+## Opening The Server
 Now we can open URL http://localhost:3000/ in the browser and we’ll get the following result:
 
 From the output you can see that the employees resource has been recognized correctly. Now you can click on the billers link and a HTTP GET request to http://localhost:3000/Billers shows the following result:
