@@ -19,14 +19,14 @@ Now we can open URL http://localhost:3000/ in the browser and we’ll get the fo
 
 From the output you can see that the employees resource has been recognized correctly. Now you can click on the billers link and a HTTP GET request to http://localhost:3000/Billers shows the following result:
 
-"Billers":\[
-		{"id":1, "biller":"Flow(Lime)", "servicefee":3.00},
-		{"id":2, "biller":"Jamiaca Public Service (JPS)", "servicefee":5.00},
-		{"id":3, "biller":"National Water Commission (NWC)", "servicefee":10.00},
-		{"id":4, "biller":"Digicel", "servicefee":120.00},
-		{"id":5, "biller":"Sagicor Life", "servicefee":250.00},
-		{"id":6, "biller":"Appsession", "servicefee":260.00}
-	\]
+\"Billers\":\[
+ {"id":1, "biller":"Flow(Lime)", "servicefee":3.00},
+ {"id":2, "biller":"Jamiaca Public Service (JPS)", "servicefee":5.00},
+ {"id":3, "biller":"National Water Commission (NWC)", "servicefee":10.00},
+ {"id":4, "biller":"Digicel", "servicefee":120.00},
+ {"id":5, "biller":"Sagicor Life", "servicefee":250.00},
+ {"id":6, "biller":"Appsession", "servicefee":260.00}
+\]
 
 The following HTTP endpoints are created automatically by JSON server:
 
